@@ -237,6 +237,10 @@ module.exports = {
       none: "none",
       custom:
         "0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12)",
+      projectLinks:
+        "0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08)",
+      projectLinksHover:
+        "0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08)",
     },
     boxShadowColor: ({ theme }) => theme("colors"),
     caretColor: ({ theme }) => theme("colors"),

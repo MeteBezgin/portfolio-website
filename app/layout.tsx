@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html>
       <head></head>
-      <body className="bg-[#f6f9fc] mx-52 my-10">
+      <body className="bg-[#f6f9fc] mx-52 my-10 ">
         <NavBar />
         {children}
       </body>
