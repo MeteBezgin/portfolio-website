@@ -6,7 +6,7 @@ const aboutData = [
   {
     input: "Mete.contactInfo",
     return:
-      '["<a href="mailto:metebezgin@gmail.com">metebezgin@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/mete-bezgin/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/MeteBezgin">github</a>"]',
+      '["<a href="mailto:metebezgin@gmail.com">metebezgin@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/mete-bezgin/">linkedin</a>", "<a rel="noopener" href="https://github.com/MeteBezgin">github</a>"]',
   },
   {
     input: "Mete.resume",
