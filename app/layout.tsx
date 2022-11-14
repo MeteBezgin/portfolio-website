@@ -1,3 +1,4 @@
+import AnalyticsWrapper from "../components/AnalyticsWrapper";
 import NavBar from "../components/NavBar";
 import "../styles/globals.css";
 
@@ -12,6 +13,7 @@ export default function RootLayout({
       <body className="bg-[#f6f9fc] mx-52 my-10 ">
         <NavBar />
         {children}
+        <AnalyticsWrapper />
       </body>
     </html>
   );
