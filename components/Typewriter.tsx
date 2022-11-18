@@ -28,6 +28,9 @@ const TypewriterTest: React.FC<{
 
   useEffect(() => {
     clicketyClack(textProp, minTypeSpeed, maxTypeSpeed, initDelay);
+    setInterval(() => {
+      clicketyClack(textProp, minTypeSpeed, maxTypeSpeed, initDelay);
+    }, 10000);
   }, [initDelay, maxTypeSpeed, minTypeSpeed, textProp]);
 
   return (

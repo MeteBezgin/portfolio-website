@@ -71,7 +71,7 @@ const ProjectCard: React.FC<{
     <div className="flex flex-row justify-between items-center mb-[60px] bg-white rounded overflow-hidden ">
       <div className=" w-[40%] p-10 ">
         <Image
-          alt=""
+          alt={title}
           src={image}
           style={{
             width: "100%",

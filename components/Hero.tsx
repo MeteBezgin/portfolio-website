@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
     <div className="mt-[20vh] flex flex-col justify-end">
       <TypewriterTest
         textProp="Mete Bezgin"
-        maxTypeSpeed={90}
-        minTypeSpeed={50}
+        maxTypeSpeed={110}
+        minTypeSpeed={70}
         initDelay={700}
       />
 
