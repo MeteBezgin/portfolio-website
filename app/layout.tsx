@@ -19,9 +19,10 @@ export default function RootLayout({
           title="Mete Bezgin"
           titleTemplate="%s | Fullstack Developer"
           description="Hi, I'm Mete. A fullstack developer based in Istanbul with a passion of building simple, beatiful user experiences. Contact me and let's meet!"
+          
         />
       </head>
-      <body className="bg-[#f6f9fc] mx-52 my-10 ">
+      <body className="bg-[#f6f9fc] mx-10 my-10 md:mx-20 2xl:text-[16px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[12px] text-[10px]">
         <NavBar />
         {children}
         <AnalyticsWrapper />

@@ -34,7 +34,7 @@ const TypewriterTest: React.FC<{
   }, [initDelay, maxTypeSpeed, minTypeSpeed, textProp]);
 
   return (
-    <div className="text-7xl font-monaco text-[#747fe0] before:content-['>\a0']">
+    <div className="text-4xl md:text-7xl font-monaco text-[#747fe0] before:content-['>\a0']">
       {text}
       <span className="bg-[#747fe0]/60 animate-caret">&nbsp;</span>
     </div>
