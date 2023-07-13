@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <div className="font-camphor w-full text-center mt-20 gap-3 pb-[12.5rem] flex justify-center">
+    <div className="font-camphor text-base md:text-xl w-full text-center mt-20 gap-3 pb-[12.5rem] flex justify-center">
       <span>
         <a
           rel="noopener noreferrer"

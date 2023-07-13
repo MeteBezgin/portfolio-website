@@ -22,7 +22,7 @@ export default function RootLayout({
           
         />
       </head>
-      <body className="bg-[#f6f9fc] mx-10 my-10 md:mx-20 2xl:text-[16px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[12px] text-[10px]">
+      <body className="bg-[#f6f9fc] mx-10 my-10 md:mx-20 2xl:text-[16px] xl:text-[16px] lg:text-[14px] md:text-[12px] text-[12px]">
         <NavBar />
         {children}
         <AnalyticsWrapper />

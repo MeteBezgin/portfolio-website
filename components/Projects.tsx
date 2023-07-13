@@ -74,7 +74,7 @@ const ProjectCard: React.FC<{
         />
       </div>
 
-      <div className=" p-10 w-full z-[2]">
+      <div className="p-4 md:p-10 w-full z-[2]">
         <h3 className=" font-medium text-3xl leading-10 text-[#525f7f] mt-0 mb-5 ">
           {title}
         </h3>
